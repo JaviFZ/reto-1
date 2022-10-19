@@ -1,9 +1,6 @@
 // //creamos las funciones y las sacamos con module.exports = {nombrefuncion, nombrefuncion};
 
-function suma (x, y, z=0,) {
-    let resSuma = x + y + z;
-    return resSuma;
-}
+
 
 function subt (x, y, z=0,) {
     let resSubt = x - y - z;
@@ -24,4 +21,4 @@ function div (x, y, z=0,) {
 
 const cuadrado = (x) => x * x;
 
-module.exports = {suma, subt, mult, div, cuadrado};
+module.exports = {subt, mult, div, cuadrado};

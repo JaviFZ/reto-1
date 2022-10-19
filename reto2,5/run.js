@@ -3,7 +3,7 @@
 
 let myLib = require("./index");
 
-console.log(myLib.suma(2, 3, 1));
+// console.log(myLib.suma(2, 3, 1));
 
 console.log(myLib.subt(9, 3, 3));
 

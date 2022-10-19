@@ -1,6 +1,6 @@
 // //creamos las funciones y las sacamos con module.exports = {nombrefuncion, nombrefuncion};
 
-function suma (x, y, z=0,) {
+function suma (x, y, z,) {
     let resSuma = x + y + z;
     return resSuma;
 }
